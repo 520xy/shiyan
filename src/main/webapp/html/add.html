@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>添加</title>
+</head>
+<body>
+<form action="/exercise2/brandAddServlet" method="post">
+    <label for="brandName">品牌名称</label>
+    <input type="text" name="brandName" id="brandName"/><br>
+    <label for="companyName">企业名称</label>
+    <input type="text" name="companyName" id="companyName"/><br>
+    <label for="ordered">排序</label>
+    <input type="text" name="ordered" id="ordered"/><br>
+    信息描述<textarea name="description" id="description"></textarea><br>
+    <label for="status0">禁用</label><input type="radio" name="status"  value="0" id="status0"/>
+    <label for="status1">启用</label><input type="radio" name="status"  value="1" id="status1"/><br>
+    <input type="submit" value="提交"/>
+</form>
+</body>
+</html>
