@@ -120,6 +120,11 @@
       <artifactId>aspectjweaver</artifactId>
       <version>1.9.4</version>
     </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-webmvc</artifactId>
+      <version>5.2.10.RELEASE</version>
+    </dependency>
   </dependencies>
   <build>
     <plugins>
